@@ -1,0 +1,45 @@
+background {
+    color: beige;
+
+}
+body {
+    color: darkslategray;
+    background-color: rgb(255, 235, 205, 0.305);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+p {
+    margin: 5% 20% 5% 20% ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px ;
+}
+nav {
+   
+    background: rgb(220, 188, 173);
+    font-family: otsikko, Arial, Helvetica, sans-serif;
+    color:rgb(30, 14, 14);
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid rgba(87, 54, 4);
+}
+
+table {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+footer{
+    clear: both;
+    font-family: otsikko, "sans serif";
+    font-size: 18px;
+    color: rgba(87, 54, 4);
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
