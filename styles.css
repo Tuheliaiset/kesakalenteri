@@ -26,6 +26,11 @@ table {
     padding-left: 0px;
 }
 
+@font-face{
+    font-family:customFont; /* fontin nimi*/
+    src: url(../fontti/BrandenRaulner-L3xJE.otf);   
+}
+
 footer{
     clear: both;
     font-family: otsikko, "sans serif";
