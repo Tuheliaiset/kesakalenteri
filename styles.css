@@ -26,6 +26,10 @@ table {
     padding-left: 0px;
 }
 
+.kalenteri {
+    text-align: center;
+}
+
 @font-face{
     font-family:customFont; /* fontin nimi*/
     src: url(../fontti/BrandenRaulner-L3xJE.otf);   
