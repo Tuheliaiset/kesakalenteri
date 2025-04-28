@@ -15,16 +15,10 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size:20px ;
 }
-nav {
-   
-    background: rgb(220, 188, 173);
-    font-family: otsikko, Arial, Helvetica, sans-serif;
-    color:rgb(30, 14, 14);
-    text-decoration: none;
-    display: inline-block;
-    border: 1px solid rgba(87, 54, 4);
-}
 
+button {
+    color: rgb(66, 207, 80);
+}
 table {
 
     padding-top: 20px;
