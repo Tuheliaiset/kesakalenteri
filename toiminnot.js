@@ -27,7 +27,7 @@ function KesaKalenteri2() {
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "";
         document.getElementById("kappale").innerHTML = "";
-    }else {
+    }else if (paivatanaan < new Date(2025-4-26)){
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
 
