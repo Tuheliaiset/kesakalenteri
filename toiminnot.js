@@ -12,7 +12,7 @@ console.log(paivatanaan);
 function KesaKalenteri1() {
     if (paivatanaan >= new Date(2025-5-2)){
         document.getElementById("otsikko").innerHTML = "";
-        document.getElementById("kuva").src = "";
+        document.getElementById("kuva").src = "kuvat/vko1.jpg";
         document.getElementById("kappale").innerHTML = "";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
