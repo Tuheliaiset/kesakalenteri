@@ -32,7 +32,7 @@ function KesaKalenteri2() {
 function KesaKalenteri3() {
     if (paivatanaan >= new Date(2025-6-2)){
         document.getElementById("otsikko").innerHTML = "";
-        document.getElementById("kuva").src = "";
+        document.getElementById("kuva").src = "kuvat/vko3.jpg";
         document.getElementById("kappale").innerHTML = "";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
@@ -42,7 +42,7 @@ function KesaKalenteri3() {
 function KesaKalenteri4() {
     if (paivatanaan >= new Date(2025-6-9)){
         document.getElementById("otsikko").innerHTML = "";
-        document.getElementById("kuva").src = "";
+        document.getElementById("kuva").src = "kuvat/vko4.jpg";
         document.getElementById("kappale").innerHTML = "";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
@@ -72,7 +72,7 @@ function KesaKalenteri6() {
 function KesaKalenteri7() {
     if (paivatanaan >= new Date(2025-6-30)){
         document.getElementById("otsikko").innerHTML = "";
-        document.getElementById("kuva").src = "";
+        document.getElementById("kuva").src = "kuvat/vko7.jpg";
         document.getElementById("kappale").innerHTML = "";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
@@ -122,7 +122,7 @@ function KesaKalenteri11() {
 function KesaKalenteri12() {
     if (paivatanaan >= new Date(2025-8-4)){
         document.getElementById("otsikko").innerHTML = "";
-        document.getElementById("kuva").src = "";
+        document.getElementById("kuva").src = "kuvat/vko12.jpg";
         document.getElementById("kappale").innerHTML = "";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
