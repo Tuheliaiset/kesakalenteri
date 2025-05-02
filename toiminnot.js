@@ -4,13 +4,16 @@
 // ehtona click toiminnon toteutumiselle on että tämän hetkinen päivämäärä vastaa napille määritettyä aikaväliä
 // jos ehto ei täyty, tulostuu lause tyylillä "Malta odottaa vielä hetki ..."
 // ehtoon kuuluu myös että jos napin määritetty aika on jo mennyt, se on avattavissa
-/* vko 1 = 19.-25.5., vko 2 = 26.5-1.6., vko 3 = 2.-8.6., vko 4 = 9.-15.6., vko 5 = 16.-22.6., vko 6 = 23.-29.6., vko 7 = 30.6.-6.7., vko 8 = 7.-13.7., vko 9 = 14.-20.7., vko 10 = 21.-27.7., vko 11 = 28.7.-3.8., vko 12 = 4.-10.8., vko 13 = 11.-17.8.*/
+/* vko 1 = 19.-25.5., vko 2 = 26.5-1.6., vko 3 = 2.-8.6., vko 4 = 9.-15.6., vko 5 = 16.-22.6., vko 6 = 23.-29.6., vko 7 = 30.6.-6.7., vko 8 = 7.-13.7., vko 9 = 14.-20.7., vko 10 = 21.-27.7., vko 11 = 28.7.-3.8., vko 12 = 4.-10.8., vko 13 = 11.-17.8.
+
+HUOM kuukaudet alkavat nollasta esim 0 = tammikuu :D
+*/
 let paivatanaan = new Date();
 console.log(paivatanaan);
 
 
 function KesaKalenteri1() {
-    if (paivatanaan >= new Date(2025-5-2)){
+    if (paivatanaan >= new Date(2025-4-2)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "kuvat/vko1.jpg";
         document.getElementById("kappale").innerHTML = "";
@@ -20,7 +23,7 @@ function KesaKalenteri1() {
 
 }
 function KesaKalenteri2() {
-    if (paivatanaan >= new Date(2025-5-26)){
+    if (paivatanaan >= new Date(2025-4-26)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "";
         document.getElementById("kappale").innerHTML = "";
@@ -30,7 +33,7 @@ function KesaKalenteri2() {
 
 }
 function KesaKalenteri3() {
-    if (paivatanaan >= new Date(2025-6-2)){
+    if (paivatanaan >= new Date(2025-5-2)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "kuvat/vko3.jpg";
         document.getElementById("kappale").innerHTML = "";
@@ -40,7 +43,7 @@ function KesaKalenteri3() {
 
 }
 function KesaKalenteri4() {
-    if (paivatanaan >= new Date(2025-6-9)){
+    if (paivatanaan >= new Date(2025-5-9)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "kuvat/vko4.jpg";
         document.getElementById("kappale").innerHTML = "";
@@ -50,7 +53,7 @@ function KesaKalenteri4() {
 
 }
 function KesaKalenteri5() {
-    if (paivatanaan >= new Date(2025-6-16)){
+    if (paivatanaan >= new Date(2025-5-16)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "";
         document.getElementById("kappale").innerHTML = "";
@@ -60,7 +63,7 @@ function KesaKalenteri5() {
 
 }
 function KesaKalenteri6() {
-    if (paivatanaan >= new Date(2025-6-23)){
+    if (paivatanaan >= new Date(2025-5-23)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "kuvat/vko6.jpg";
         document.getElementById("kappale").innerHTML = "";
@@ -70,7 +73,7 @@ function KesaKalenteri6() {
 
 }
 function KesaKalenteri7() {
-    if (paivatanaan >= new Date(2025-6-30)){
+    if (paivatanaan >= new Date(2025-5-30)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "kuvat/vko7.jpg";
         document.getElementById("kappale").innerHTML = "";
@@ -80,7 +83,7 @@ function KesaKalenteri7() {
 
 }
 function KesaKalenteri8() {
-    if (paivatanaan >= new Date(2025-7-7)){
+    if (paivatanaan >= new Date(2025-6-7)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "";
         document.getElementById("kappale").innerHTML = "";
@@ -90,7 +93,7 @@ function KesaKalenteri8() {
 
 }
 function KesaKalenteri9() {
-    if (paivatanaan >= new Date(2025-7-14)){
+    if (paivatanaan >= new Date(2025-6-14)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "";
         document.getElementById("kappale").innerHTML = "";
@@ -100,7 +103,7 @@ function KesaKalenteri9() {
 
 }
 function KesaKalenteri10() {
-    if (paivatanaan >= new Date(2025-7-21)){
+    if (paivatanaan >= new Date(2025-6-21)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "";
         document.getElementById("kappale").innerHTML = "";
@@ -110,7 +113,7 @@ function KesaKalenteri10() {
 
 }
 function KesaKalenteri11() {
-    if (paivatanaan >= new Date(2025-7-28)){
+    if (paivatanaan >= new Date(2025-6-28)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "";
         document.getElementById("kappale").innerHTML = "";
@@ -120,7 +123,7 @@ function KesaKalenteri11() {
 
 }
 function KesaKalenteri12() {
-    if (paivatanaan >= new Date(2025-8-4)){
+    if (paivatanaan >= new Date(2025-7-4)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "kuvat/vko12.jpg";
         document.getElementById("kappale").innerHTML = "";
@@ -130,7 +133,7 @@ function KesaKalenteri12() {
 
 }
 function KesaKalenteri13() {
-    if (paivatanaan >= new Date(2025-8-11)){
+    if (paivatanaan >= new Date(2025-7-11)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "";
         document.getElementById("kappale").innerHTML = "";
