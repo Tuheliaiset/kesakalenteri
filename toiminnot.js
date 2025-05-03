@@ -12,6 +12,7 @@ let paivatanaan = new Date();
 console.log(paivatanaan);
 
 
+
 function KesaKalenteri1() {
     if (paivatanaan >= new Date(2025-4-2)){
         document.getElementById("otsikko").innerHTML = "";
