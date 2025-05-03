@@ -17,7 +17,14 @@ function KesaKalenteri1() {
     if (paivatanaan >= new Date(2025-4-2)){
         document.getElementById("otsikko").innerHTML = "";
         document.getElementById("kuva").src = "kuvat/VK1.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Linnanmäen hupietupäivä 19.05.2025<br>" +
+        <p>Hanki ranneke edullisempaan hintaan:<br>
+            Isohupi 49,00EUR (normaalihinta 53,00EUR)
+            Pikkuhupi 41,00EUR (normaalihinta 43,00EUR)
+            <br>
+            <br>
+            Hupietupäivinä S-ryhmästä saa rannekkeen vielä tätäkin edulliemmin. S-etukortilla Isohupi 47 e pikkuhupi 39 e. S-etuhintaiset liput ovat myynnissä Prismoissa, Sokoksissa ja S‑marketeissa sekä osassa pääkaupunkiseudun Sokos- ja Radisson Blu -hotelleista majoituksen yhteydessä. Rannekkeiden osto ei kerrytä S‑ryhmän Bonusta.​
+        </p>
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
@@ -31,7 +38,6 @@ function KesaKalenteri2() {
     }else if (paivatanaan < new Date(2025-4-26)){
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
-
 }
 function KesaKalenteri3() {
     if (paivatanaan >= new Date(2025-5-2)){
