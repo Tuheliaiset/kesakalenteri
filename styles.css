@@ -33,6 +33,7 @@ p {
 
 #otsikko{
     font-family: customFont, Arial, Helvetica, sans-serif;
+     margin-left: 20%;
 }
 
 #kuva {
@@ -90,7 +91,7 @@ table {
 
 @font-face{
     font-family:customFont; /* fontin nimi*/
-    src: url(../fontti/BrandenRaulner-L3xJE.otf);   
+    src: url(fontti/BrandenRaulner-L3xJE.otf);   
 }
 
 footer{
