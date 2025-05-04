@@ -15,9 +15,9 @@ console.log(paivatanaan);
 
 function KesaKalenteri1() {
     if (paivatanaan >= new Date(2025-4-2)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Linnanmäen hupietupäivä 19.05.2025";
         document.getElementById("kuva").src = "kuvat/VK1.jpg";
-        document.getElementById("kappale").innerHTML = "Linnanmäen hupietupäivä 19.05.2025<br> Hanki ranneke edullisempaan hintaan:<br>Isohupi 49,00EUR (normaalihinta 53,00EUR)<br>Pikkuhupi 41,00EUR (normaalihinta 43,00EUR)<br><br>Hupietupäivinä S-ryhmästä saa rannekkeen vielä tätäkin edulliemmin. S-etukortilla Isohupi 47 e pikkuhupi 39 e. S-etuhintaiset liput ovat myynnissä Prismoissa, Sokoksissa ja S‑marketeissa sekä osassa pääkaupunkiseudun Sokos- ja Radisson Blu -hotelleista majoituksen yhteydessä. Rannekkeiden osto ei kerrytä S‑ryhmän Bonusta.​";
+        document.getElementById("kappale").innerHTML = "Hanki ranneke edullisempaan hintaan:<br>Isohupi 49,00EUR (normaalihinta 53,00EUR)<br>Pikkuhupi 41,00EUR (normaalihinta 43,00EUR)<br><br>Hupietupäivinä S-ryhmästä saa rannekkeen vielä tätäkin edulliemmin. S-etukortilla Isohupi 47 e pikkuhupi 39 e. S-etuhintaiset liput ovat myynnissä Prismoissa, Sokoksissa ja S‑marketeissa sekä osassa pääkaupunkiseudun Sokos- ja Radisson Blu -hotelleista majoituksen yhteydessä. Rannekkeiden osto ei kerrytä S‑ryhmän Bonusta.​";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
@@ -25,18 +25,18 @@ function KesaKalenteri1() {
 }
 function KesaKalenteri2() {
     if (paivatanaan >= new Date(2025-4-26)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Nuorten aikuisten yökahvila 30.05.2025";
         document.getElementById("kuva").src = "kuvat/VK2.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Nuorten päihteettömään yökahvilaan ovat tervetulleita kaikki 18–29-vuotiaat nuoret. Yökahvilassa voi hengailla, opiskella, jutella ja tutustua muihin nuoriin. Paikalla on Sirkus Magentan kaksi sirkusohjaajaa, joiden kanssa voi halutessaan kokeilla sirkusvälineitä ja -lajeja turvallisesti. Sirkustilassa on mahdollisuus esimerkiksi ilma-akrobatian, trampoliinin, jongleerauksen, yksipyöräisen ja lattia-akrobatian kokeiluun. Yökahvila järjestetään sirkustilassamme Itäkeskuksessa Helsingissä kerran viikossa perjantaisin klo 20:30-23:30 ";
     }else if (paivatanaan < new Date(2025-4-26)){
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
 }
 function KesaKalenteri3() {
     if (paivatanaan >= new Date(2025-5-2)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Opastettu kierros Suomenlinnassa kesä-elokuussa päivittäin klo 12";
         document.getElementById("kuva").src = "kuvat/VK3.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Opastetulla kävely­kierroksella kuljetaan historiallisilla paikoilla, ja kuullaan linnoituksen kiehtovasta menneisyydestä ja nykypäivästä. Kierrokset alkavat Suomenlinna-museolta.<br><br>Liput on hyvä ostaa ennakkoon.<br><br>Liput 15e (aikuiset), 5e (lapset 7-17v)";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
@@ -44,9 +44,9 @@ function KesaKalenteri3() {
 }
 function KesaKalenteri4() {
     if (paivatanaan >= new Date(2025-5-9)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Helsinki Samba Carnaval kulkue 14.06.2025 Klo 15 alkaen ";
         document.getElementById("kuva").src = "kuvat/VK4.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Tule seuraamaan Suomen sambakoulujen kulkuetta.<br><br>Reitti: Senaatintori – Unioninkatu – Eteläesplanadi – Mannerheimintie – Aleksanterinkatu<br><br>Helsinki Samba Carnaval huipentuu Stadin kuumimpiin bileisiin, kun Baile do Carnaval valtaa Kulttuuritehdas Korjaamon lauantaina 14. kesäkuuta! Tiedossa on unohtumaton karnevaalitunnelma – sambarytmejä, näyttäviä esityksiä, live-musiikkia ja loistava DJ.<br><br> Liput tikestistä";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
@@ -54,9 +54,9 @@ function KesaKalenteri4() {
 }
 function KesaKalenteri5() {
     if (paivatanaan >= new Date(2025-5-16)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Seurasaaren juhannusvalkeat 20.6.2025 klo 17:00 – 21.6.2025 klo 01:00";
         document.getElementById("kuva").src = "kuvat/VK5.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Seurasaaressa juhlitaan keskikesää ja tehdään elävää kulttuuriperintöä näkyväksi! Vehreä kansanpuisto ja idyllinen museoalue luovat erinomaiset puitteet viettää juhannusta. Juhannusvalkeilla ihastuttavat värikkäät kansallispuvut, taitavat kansantanssijat ja pelimannit kokkojen roihutessa. (Metsäpalovaroituksen voimassaoloaikana kokkoja ei voida sytyttää).<br><br>Paikka: Seurasaaren ulkomuseo";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
