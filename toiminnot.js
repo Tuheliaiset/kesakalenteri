@@ -114,9 +114,9 @@ function KesaKalenteri10() {
 }
 function KesaKalenteri11() {
     if (paivatanaan >= new Date(2025-6-28)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Weekend Festival 01.-02.08.2025";
         document.getElementById("kuva").src = "kuvat/VK11.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Vermon Tapahtumapuistossa järjestettävä Weekend Festival kokoaa elektronisen musiikin suurnimet kaksipäiväisille Weekend Festivaaleille.<br><br>Esiintyjinä esim: Armin van Buuren, Hardwell, Heavyweight, Meduza, Agnia ja Robin Schulz";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
@@ -134,9 +134,9 @@ function KesaKalenteri12() {
 }
 function KesaKalenteri13() {
     if (paivatanaan >= new Date(2025-7-11)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Sightseeing risteily ";
         document.getElementById("kuva").src = "kuvat/VK13.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Elämyksellinen risteily Helsingin päänähtävyyksien varrella. Koe unohtumaton 1,5 tunnin sightseeing-risteily Helsingin upeilla vesillä, kun tutustumme kaupungin rikkaaseen historiaan ja merkittävimpiin nähtävyyksiin. Risteily lähtee Kauppatorilta.<br><br>Maisemista nauttimisen lisäksi voit herkutella paikallisilla pienillä herkkuilla sekä virkistävillä juomilla aluksen kahvila-baarista koko risteilyn ajan.<br><br>Liput:<br>Aikuinen 27€/hlö<br>Eläkeläinen (+65v.) / opiskelija / ryhmät min. 8 aikuista 24€/hlö<br>Lapsi 6-14v. 13,50€/hlö";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
