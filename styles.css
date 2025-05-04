@@ -16,6 +16,18 @@ p {
     font-family: customFont, Arial, Helvetica, sans-serif;
     font-size:20px ;
 }
+.kukat{
+    margin-left: 15%;
+}
+
+#otsikko{
+    font-family: customFont, Arial, Helvetica, sans-serif;
+}
+
+#kuva {
+    margin-left: 15%;
+}
+/*kuvat liikkuvat laitteen mukaan prosentteina*/
 
 #nappula {
     color: rgb(66, 207, 80);
