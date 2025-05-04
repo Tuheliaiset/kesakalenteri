@@ -44,7 +44,7 @@ function KesaKalenteri3() {
 }
 function KesaKalenteri4() {
     if (paivatanaan >= new Date(2025-5-9)){
-        document.getElementById("otsikko").innerHTML = "Helsinki Samba Carnaval kulkue 14.06.2025 Klo 15 alkaen ";
+        document.getElementById("otsikko").innerHTML = "Helsinki Samba Carnaval kulkue 14.06.2025 klo 15 alkaen ";
         document.getElementById("kuva").src = "kuvat/VK4.jpg";
         document.getElementById("kappale").innerHTML = "Tule seuraamaan Suomen sambakoulujen kulkuetta.<br><br>Reitti: Senaatintori – Unioninkatu – Eteläesplanadi – Mannerheimintie – Aleksanterinkatu<br><br>Helsinki Samba Carnaval huipentuu Stadin kuumimpiin bileisiin, kun Baile do Carnaval valtaa Kulttuuritehdas Korjaamon lauantaina 14. kesäkuuta! Tiedossa on unohtumaton karnevaalitunnelma – sambarytmejä, näyttäviä esityksiä, live-musiikkia ja loistava DJ.<br><br> Liput tikestistä";
     }else {
@@ -64,9 +64,9 @@ function KesaKalenteri5() {
 }
 function KesaKalenteri6() {
     if (paivatanaan >= new Date(2025-5-23)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Tuska 27.-29.06.2025";
         document.getElementById("kuva").src = "kuvat/VK6.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Suvilahdessa järjestettävä Tuska Festival on nykyään Pohjoismaiden suurin metallifestivaali. Tänä vuonna esiintyjinä mm. Lorna Shore, In Flames, Electric Callboy, Powerwolf, Apocalyptica, Nothin More, Orbit Culture, Mokoma";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
@@ -74,9 +74,9 @@ function KesaKalenteri6() {
 }
 function KesaKalenteri7() {
     if (paivatanaan >= new Date(2025-5-30)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Kipinä Festival 04.-05.07.2025";
         document.getElementById("kuva").src = "kuvat/VK7.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Kipinä Festivalit juhlitaan Helsingissä Oulunkylän urheilupuistossa.<br><br>Esiintyjinä nähdään perjantaina JVG, Earth, Wind & Fire Experience, Abreu, Isac Elliot, Elastinen, Viivi, Ege Zulu, Arttu Wiskari ja Jannika B. Lauantaina vuoronsa saavat Jenni Vartiainen, Gasellit, Mirella, Robin Packalen, Dire Straits Legacy, Kaija Koo, Ani, Karri Koira ja Tuuli.<br><br>Tietokirjailija Emilia Vuorisalmi tuo Kipinä Festivaaleille aivan uudenlaisen tilan, jossa festivaalivieraat saavat kokea uusia fiiliksiä ja löytää sisäisen kipinän. Tapahtumaan tulee myös käyttöön sinkkuasiakkaille suunnattu sinkkuranneke.";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
@@ -84,9 +84,9 @@ function KesaKalenteri7() {
 }
 function KesaKalenteri8() {
     if (paivatanaan >= new Date(2025-6-7)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Lonna";
         document.getElementById("kuva").src = "kuvat/VK8.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Lonna on pieni, mutta monipuolinen saari Suomenlinnan lähellä. Sinne pääsee näppärästi vesibussilla Kauppatorilta. Lonnassa voi saunoa, hengailla ja nauttia saaren keittiön upeista tarjottavista. Saaressa järjestetään ulkoilmaelokuvailtoja, joogataan, vietetään erilaisia tapahtumia sekä juhlitaan juhannusta.";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
@@ -94,9 +94,9 @@ function KesaKalenteri8() {
 }
 function KesaKalenteri9() {
     if (paivatanaan >= new Date(2025-6-14)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Aleksis Kiven kadun kirppis 20.07.2025 ";
         document.getElementById("kuva").src = "kuvat/VK9.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Dallapénpuistossa toukokuusta syyskuuhun sunnuntaisin järjestettävä ulkokirppis. Kuka tahansa voi mennä tavaroineen Aleksis kiven kadulle kirppispäivän ajaksi myymään, kunhan vie myymättömät tavarat mukanaan pois ja siivoaa jälkensä. Muistathan siis viedä paitsi roskasi mukanasi, myös myymättömät vaatteet ja muut tavarat.<br><br>Tapahtumasta on muodostunut myös ruokamatka lukuisten kulttuurien makuihin ja keittiöihin. Se onkin kaupungin vilkkain ja eläväisin katuruokatapahtuma kesäisin. Myös satokauden herkkuja, kuten loppukesästä kanttarelleja myydään kojuissa vain puolella Kauppatorin hinnoista.";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
@@ -104,9 +104,9 @@ function KesaKalenteri9() {
 }
 function KesaKalenteri10() {
     if (paivatanaan >= new Date(2025-6-21)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Smash into Pieces 24.07.2025 Allas Live K18";
         document.getElementById("kuva").src = "kuvat/VK10.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Allas Live tarjoaa kävijöilleen kesän kuumimman keikkasarjan ja unohtumattomia hetkiä musiikin parissa! Ruotsalainen metalliyhtye Smash into Pieces esiintyy Allas Poolilla.";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
@@ -124,9 +124,9 @@ function KesaKalenteri11() {
 }
 function KesaKalenteri12() {
     if (paivatanaan >= new Date(2025-7-4)){
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Kasarmitorin kesäterassi 12.06.-15.08.2025";
         document.getElementById("kuva").src = "kuvat/VK12.jpg";
-        document.getElementById("kappale").innerHTML = "";
+        document.getElementById("kappale").innerHTML = "Torille on tulossa jopa 1000 asiakaspaikkaa ja 16 ravintolaa. Terassilla on ruoan ja juoman lisäksi luvassa ohjelmaa lähes joka päivä. Torille suunnitellaan ohjelmaa kaikenikäisille- Meet&greet -tapahtumia lapsille ja nuorille, sekä mummodiskoa ja yhteislaulutilaisuuksia varttuneemmille.<br><br>Ravintoloita mukana ovat mm. hienostunut Finnjävel, viinibaari Bricco, mehukkaita höyrytettyjä ja täytettyjä sämpylöitä loihtiva baobao, Kauppatorin mehevistä lihapiirakoista ja muista leivonnaisistaan tunnettu Eromanga, sekä Hampurilaisistaan palkittu ja Herttoniemestä ponnistava kortteliravintola Treffipub.";
     }else {
         document.getElementById("kappale").innerHTML = "Tämä luukku ei ole vielä avattavissa. Maltathan mielesi! ";
     }
