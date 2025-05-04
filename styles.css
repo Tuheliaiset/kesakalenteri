@@ -14,7 +14,9 @@ body {
 
 h1 {
   font-family: customFont, Arial, Helvetica, sans-serif;
-  margin-left: 20%;  
+  font-size: 4.5rem;
+
+
 }
 
 #sisältö {
@@ -27,18 +29,32 @@ p {
     font-size:20px ;
     text-align: center;
 }
-.kukat{
-    margin-left: 15%;
+
+#kuva {
+    height: 350px;
 }
 
 #otsikko{
     font-family: customFont, Arial, Helvetica, sans-serif;
-     margin-left: 20%;
+
 }
 
-#kuva {
-    margin-left: 40%;
+#aloitus {
+    justify-items: center;
 }
+
+
+.kukat1 {
+    float: left;
+    padding-left: 80px;
+}
+
+.kukat2 {
+    float: right;
+    padding-right: 80px;
+    
+}
+
 /*kuvat liikkuvat laitteen mukaan prosentteina*/
 
 #nappula {
@@ -98,9 +114,10 @@ footer{
     font-family: otsikko, "sans serif";
     font-size: 18px;
     color: rgba(87, 54, 4);
-    background-color: rgb(251, 229, 246);
+    background-color: hsl(352, 100%, 93%);
     width: 100%;
     padding-bottom: 1em;
     padding-top: 0.3em;
     justify-items: center;
+
 }
