@@ -11,6 +11,11 @@ body {
     
 }
 
+h1 {
+  font-family: customFont, Arial, Helvetica, sans-serif;
+  margin-left: 20%;  
+}
+
 p {
     margin: 5% 20% 5% 20% ;
     font-family: customFont, Arial, Helvetica, sans-serif;
