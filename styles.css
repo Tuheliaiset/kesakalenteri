@@ -46,7 +46,8 @@ p {
 
 .kukat1 {
     float: left;
-    padding-left: 80px;
+    padding-right: 80px;
+    transform: scaleX(-1);
 }
 
 .kukat2 {
