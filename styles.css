@@ -27,6 +27,7 @@ p {
 
 #otsikko{
     font-family: customFont, Arial, Helvetica, sans-serif;
+     margin-left: 20%;
 }
 
 #kuva {
