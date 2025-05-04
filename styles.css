@@ -75,7 +75,7 @@ table {
     height: 40px;
     background-color: hsl(352, 100%, 93%);
     color: #000000;
-    font-family: "";
+    font-family: customFont;
     font-weight: 600;
     font-size: 1.6rem;
     margin: 5px auto;
