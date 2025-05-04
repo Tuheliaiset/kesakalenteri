@@ -8,6 +8,7 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
+    
 }
 
 p {
@@ -29,6 +30,38 @@ table {
 
 .kalenteri {
     text-align: center;
+}
+.nappulat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 40px;
+}
+.b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10, .b11, .b12, .b13 {
+    flex-wrap: wrap;
+    font-size: 10px;
+    align-content: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: hsl(352, 86%, 84%);
+    width: 100px;
+    height: 40px;
+    background-color: hsl(352, 100%, 93%);
+    color: #000000;
+    font-family: "";
+    font-weight: 600;
+    margin: 5px auto;
+    
+}
+.b1:hover, .b2:hover, .b3:hover, .b4:hover, .b5:hover, .b6:hover, .b7:hover, .b8:hover, .b9:hover, .b10:hover, .b11:hover, .b12:hover, .b13:hover{
+    background-color: hsl(352, 86%, 84%);
+    opacity: 0.9;
+    color:#fafafa;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),
+     0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 @font-face{
