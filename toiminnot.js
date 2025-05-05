@@ -134,7 +134,7 @@ function KesaKalenteri10() {
 }
 function KesaKalenteri11() {
     if (paivatanaan >= new Date("2025-04-28")) {
-        document.getElementById("otsikko").innerHTML = "";
+        document.getElementById("otsikko").innerHTML = "Järjestetään 1.-2.8 Vermon Tapahtumapuistossa Espoossa. Festivaalin ikäraja on 18+. Esiintyjinä mm. Armin van Buuren, Fisher, Hardwell ja Robin Shculz    ";
         document.getElementById("kuva").src = "kuvat/VK11.jpg";
         document.getElementById("kappale").innerHTML = "";
     } else {
