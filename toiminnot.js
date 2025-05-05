@@ -147,7 +147,7 @@ function KesaKalenteri11() {
 function KesaKalenteri12() {
     if (paivatanaan >= new Date("2025-04-04")) {
         document.getElementById("otsikko").innerHTML = "Kasarmitorin kesäterassi 12.06.-15.08.2025";
-        document.getElementById("kuva").src = "kuvat/VK12.jpg";
+        document.getElementById("kuva").src = "kuvat/vko12.1.jpg";
         document.getElementById("kappale").innerHTML = "Torille on tulossa jopa 1000 asiakaspaikkaa ja 16 ravintolaa. Terassilla on ruoan ja juoman lisäksi luvassa ohjelmaa lähes joka päivä. Torille suunnitellaan ohjelmaa kaikenikäisille- Meet&greet -tapahtumia lapsille ja nuorille, sekä mummodiskoa ja yhteislaulutilaisuuksia varttuneemmille.<br><br>Ravintoloita mukana ovat mm. hienostunut Finnjävel, viinibaari Bricco, mehukkaita höyrytettyjä ja täytettyjä sämpylöitä loihtiva baobao, Kauppatorin mehevistä lihapiirakoista ja muista leivonnaisistaan tunnettu Eromanga, sekä Hampurilaisistaan palkittu ja Herttoniemestä ponnistava kortteliravintola Treffipub.";
     } else {
         document.getElementById("otsikko").innerHTML = "Vko 12 ei vielä avattavissa";
