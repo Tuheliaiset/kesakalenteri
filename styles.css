@@ -24,10 +24,11 @@ h1 {
 }
 
 p {
-    margin: 5% 20% 5% 20% ;
+    margin: 2% 20%;
     font-family: 'Times New Roman', Times, serif;
     font-size:25px ;
     text-align: center;
+
 }
 
 #kuva {
@@ -97,6 +98,7 @@ table {
     font-weight: 600;
     font-size: 1.6rem;
     margin: 5px auto;
+
     
 }
 .b1:hover, .b2:hover, .b3:hover, .b4:hover, .b5:hover, .b6:hover, .b7:hover, .b8:hover, .b9:hover, .b10:hover, .b11:hover, .b12:hover, .b13:hover{
