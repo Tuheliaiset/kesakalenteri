@@ -134,7 +134,7 @@ function KesaKalenteri10() {
 }
 function KesaKalenteri11() {
     if (paivatanaan >= new Date("2025-04-28")) {
-        document.getElementById("otsikko").innerHTML = " Weekend Festival ";
+        document.getElementById("otsikko").innerHTML = " Weekend Festival 1.-2.8.";
         document.getElementById("kuva").src = "kuvat/VK11.jpg";
         document.getElementById("kappale").innerHTML = "Järjestetään 1.-2.8 Vermon Tapahtumapuistossa Espoossa. Festivaalin ikäraja on 18+. Esiintyjinä mm. Armin van Buuren, Fisher, Hardwell ja Robin Shculz";
     } else {
@@ -159,7 +159,7 @@ function KesaKalenteri13() {
     if (paivatanaan >= new Date("2025-04-11")) {
         document.getElementById("otsikko").innerHTML = "Elämyksellinen risteily Helsingin päänähtävyyksien varrella";
         document.getElementById("kuva").src = "kuvat/VK13.jpg";
-        document.getElementById("kappale").innerHTML = "Risteily lähtee Kauppatorilta, ja kierros kulkee muun muassa kauniin Merisataman sekä Eiran, Kaivopuiston ja Kruununhaan rannat. Lisäksi risteily kiertää Suomenlinnan, UNESCO:n maailmanperintökohteen ympäri. <br>2.6.-28.9.2025 ma-su klo 11, 12, 13, 14, 15, 16 & 17 <br>Juhannusaattona 20.6.2025 poikkeuksia lähtöajoissa. <br>-Kesto: 1,5 tuntia <br>Lähtöpaikka: Helsingin Kauppatori, Kolera-allas ";
+        document.getElementById("kappale").innerHTML = "Risteily lähtee Kauppatorilta, ja kierros kulkee muun muassa kauniin Merisataman sekä Eiran, Kaivopuiston ja Kruununhaan rannat. Lisäksi risteily kiertää Suomenlinnan, UNESCO:n maailmanperintökohteen ympäri. <br><br>2.6.-28.9.2025 ma-su klo 11, 12, 13, 14, 15, 16 & 17 <br>Juhannusaattona 20.6.2025 poikkeuksia lähtöajoissa. <br><br>Kesto: 1,5 tuntia <br>Lähtöpaikka: Helsingin Kauppatori, Kolera-allas ";
     } else {
         document.getElementById("otsikko").innerHTML = "Vko 13 ei vielä avattavissa";
         document.getElementById("kuva").src = "kuvat/placeholder_image.jpg";
